@@ -4,12 +4,10 @@
   "main": "server.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.mjs"
+    "start": "nodemon server.mjs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ameenstudio/ALAB-319.5.1-Working-with-Mongoose.git"
-  },
+  
+  
   "keywords": [],
   "author": "",
   "license": "ISC",

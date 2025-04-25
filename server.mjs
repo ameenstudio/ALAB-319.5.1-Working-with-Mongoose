@@ -2,6 +2,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import connectDB from './db/conn.mjs';
+import carRoutes from './routes/carRoutes.mjs'
 //setups
 dotenv.config();
 const PORT = process.env.PORT || 3001;
